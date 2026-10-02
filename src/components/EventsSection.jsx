@@ -93,7 +93,7 @@ export default function EventsSection() {
           background: 'radial-gradient(circle at center, rgba(255, 255, 255, 0.98) 0%, rgba(248, 246, 242, 0.96) 100%)',
           borderRadius: '36px',
           border: '2px solid var(--champagne-400)',
-          boxShadow: 
+          boxShadow:
             '0 0 0 4px #0e223f, 0 0 0 7px #eae2d5, 0 25px 60px rgba(10, 24, 45, 0.16), 0 0 40px rgba(203, 180, 147, 0.3)',
           padding: '44px 20px',
           overflow: 'visible',
@@ -388,14 +388,15 @@ export default function EventsSection() {
             <h3
               className="font-royal-title text-sapphire"
               style={{
-                fontSize: 'clamp(2.1rem, 6vw, 3.4rem)',
+                fontSize: 'clamp(1.4rem, 4.2vw, 2.45rem)',
                 fontWeight: 900,
-                letterSpacing: '0.05em',
+                letterSpacing: '0.04em',
                 lineHeight: 1.35,
                 paddingTop: '6px',
                 paddingBottom: '6px',
                 margin: '0 auto',
                 overflow: 'visible',
+                textWrap: 'balance',
               }}
             >
               Varmala & Wedding Ceremony
@@ -486,7 +487,7 @@ export default function EventsSection() {
                   marginBottom: '6px',
                 }}
               >
-                The Barat Will Start From 5:00 PM
+                The Barat Will Start From Hotel Sun Valley at 5:00 PM
               </h4>
 
               <p
@@ -593,7 +594,7 @@ export default function EventsSection() {
               </div>
 
               {/* Tag / Category */}
-              <span
+              {/* <span
                 style={{
                   fontSize: '0.82rem',
                   textTransform: 'uppercase',
@@ -604,7 +605,7 @@ export default function EventsSection() {
                 }}
               >
                 Sacred Varmala & Pheras
-              </span>
+              </span> */}
 
               {/* Proclamation - Clean Unclipped Royal Serif */}
               <h4
@@ -612,12 +613,14 @@ export default function EventsSection() {
                 style={{
                   fontSize: 'clamp(1.35rem, 4vw, 1.85rem)',
                   fontWeight: 900,
-                  lineHeight: 1.35,
+                  lineHeight: 1.4,
                   paddingTop: '4px',
                   marginBottom: '6px',
                 }}
               >
-                Varmala Ceremony : 7:00 PM Onwards
+                Sacred Varmala & Pheras
+                <br />
+                <span style={{ whiteSpace: 'nowrap' }}>7:00 PM Onwards</span>
               </h4>
 
               <p

@@ -30,7 +30,7 @@ export default function FamilySection() {
     ],
   };
 
-  const sweetAngels = ['Garv', 'Kanak', 'Avyaan', 'Kanishk'];
+  const sweetAngels = ['Garv', 'Kanak', 'Urvi', 'Anaya', 'Avyaan', 'Kanishk'];
 
   const awaitingGuests = [
     'Smt. Jyoti & Shri Prakash Pehalajani',
@@ -343,7 +343,7 @@ export default function FamilySection() {
         </div>
 
         <p style={{ fontStyle: 'italic', color: '#556880', fontSize: '1.05rem', marginBottom: '16px', lineHeight: 1.4 }}>
-          "Mere Chachu/Mama & Chachi/Mami ki Shaadi mein Zaroor Aana!" 🌸
+          "Mere Mama/Chachu ki Shaadi mein Zaroor Aana!" 🌸
         </p>
 
         <div
