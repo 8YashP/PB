@@ -65,9 +65,9 @@ export default function HeroSection() {
         style={{ maxWidth: '780px', margin: '0 auto 24px' }}
       >
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-          <span>"Jai Baba"</span>
+          <span>"Jai Baba Ki Jai"</span>
           <span style={{ color: 'var(--gold-700)' }}>卐 !! Om Shri Ganeshay Namah !! 卐</span>
-          <span>"Jai Baba"</span>
+          <span>"Jai Baba Ki Jai"</span>
         </div>
       </motion.div>
 

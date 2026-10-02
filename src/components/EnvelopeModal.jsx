@@ -132,9 +132,9 @@ export default function EnvelopeModal({ isOpen, onOpen }) {
                 padding: '0 10px',
               }}
             >
-              <span>"Jai Baba"</span>
+              <span>"Jai Baba Ki Jai"</span>
               <span style={{ color: 'var(--champagne-600)' }}>卐</span>
-              <span>"Jai Baba"</span>
+              <span>"Jai Baba Ki Jai"</span>
             </div>
 
             <p
