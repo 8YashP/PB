@@ -343,7 +343,7 @@ export default function FamilySection() {
         </div>
 
         <p style={{ fontStyle: 'italic', color: '#556880', fontSize: '1.05rem', marginBottom: '16px', lineHeight: 1.4 }}>
-          "Mere Mama/Chachu ki Shaadi mein Zaroor Aana!" 🌸
+          "Mere Mamu/Chachu ki Shaadi mein Zaroor Aana!" 🌸
         </p>
 
         <div

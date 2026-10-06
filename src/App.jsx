@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
-import { Sparkles, MailOpen } from 'lucide-react';
+import { MailOpen } from 'lucide-react';
 import EnvelopeModal from './components/EnvelopeModal';
-import PetalCanvas, { triggerBlessingShower } from './components/PetalCanvas';
+import PetalCanvas from './components/PetalCanvas';
 import HeroSection from './components/HeroSection';
 import EventsSection from './components/EventsSection';
 import FamilySection from './components/FamilySection';
-import WishesWall from './components/WishesWall';
 import ResidenceFooter from './components/ResidenceFooter';
 import MusicPlayer from './components/MusicPlayer';
 import { HangingGarlands, RoyalElephant } from './components/RoyalDecorations';
@@ -38,17 +37,6 @@ export default function App() {
       {/* Persistent Floating Controls */}
       <MusicPlayer />
 
-      {/* Interactive Shower Blessings Button */}
-      <button
-        onClick={triggerBlessingShower}
-        className="blessing-shower-btn"
-        title="Shower Rose Petals and Blessings"
-        aria-label="Shower Rose Petals"
-      >
-        <span>🌸</span>
-        <span>Shower Blessings</span>
-        <Sparkles size={16} color="#faebba" />
-      </button>
 
       {/* Royal Top Navigation Bar */}
       <nav
@@ -123,11 +111,7 @@ export default function App() {
 
         <FamilySection />
 
-        <div className="ornate-divider" style={{ maxWidth: '600px', margin: '40px auto' }}>
-          <span className="ornate-divider-center">🪷 • 卐 • 🪷</span>
-        </div>
 
-        <WishesWall />
       </main>
 
       {/* Auspicious Residence & Footer */}

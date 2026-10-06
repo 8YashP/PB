@@ -64,10 +64,13 @@ export default function HeroSection() {
         className="shloka-banner"
         style={{ maxWidth: '780px', margin: '0 auto 24px' }}
       >
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-          <span>"Jai Baba Ki Jai"</span>
-          <span style={{ color: 'var(--gold-700)' }}>卐 !! Om Shri Ganeshay Namah !! 卐</span>
-          <span>"Jai Baba Ki Jai"</span>
+        <div className="shloka-banner-inner">
+          <span className="shloka-wing-left">"Jai Baba Ki Jai"</span>
+          <div className="shloka-center">
+            <span className="shloka-ganesh">卐 !! Om Shri Ganeshay Namah !! 卐</span>
+            <span className="shloka-sachidanand">"Jai Sachidanand"</span>
+          </div>
+          <span className="shloka-wing-right">"Jai Baba Ki Jai"</span>
         </div>
       </motion.div>
 

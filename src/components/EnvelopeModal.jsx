@@ -144,11 +144,25 @@ export default function EnvelopeModal({ isOpen, onOpen }) {
                 color: 'var(--royal-800)',
                 letterSpacing: '0.14em',
                 fontWeight: '700',
-                margin: '8px 0 16px',
+                margin: '8px 0 6px',
                 lineHeight: 1.4,
               }}
             >
               !! Om Shri Ganeshay Namah !!
+            </p>
+
+            <p
+              style={{
+                fontFamily: 'var(--font-serif-body)',
+                fontSize: '0.98rem',
+                color: 'var(--royal-800)',
+                letterSpacing: '0.1em',
+                fontWeight: '700',
+                margin: '0 0 16px',
+                lineHeight: 1.4,
+              }}
+            >
+              "Jai Sachidanand"
             </p>
 
             <div className="ornate-divider" style={{ margin: '14px auto' }}>

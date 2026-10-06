@@ -333,7 +333,7 @@ export default function EventsSection() {
 
         {/* =========================================================
             PROGRAMME 2: SUNDAY, 6TH DECEMBER 2026
-            Varmala & Wedding Ceremony (SPECIAL ROYAL HIGHLIGHT)
+            Wedding Ceremony (SPECIAL ROYAL HIGHLIGHT)
             ========================================================= */}
         <div
           style={{
@@ -399,7 +399,7 @@ export default function EventsSection() {
                 textWrap: 'balance',
               }}
             >
-              Varmala & Wedding Ceremony
+              Wedding Ceremony
             </h3>
           </div>
 

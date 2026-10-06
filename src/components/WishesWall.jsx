@@ -5,30 +5,7 @@ import { triggerBlessingShower } from './PetalCanvas';
 
 export default function WishesWall() {
   const initialWishes = [
-    {
-      name: 'Harsha Dhingra',
-      relation: 'Family',
-      message: 'Wishing my dearest brother Pankaj and sweet Bhagyashree a lifetime of endless laughter, unconditional love, and pure bliss! So thrilled to welcome Bhabhi to our family! 🌸❤️',
-      date: 'Blessings from Family',
-    },
-    {
-      name: 'Jagrati Dhingra',
-      relation: 'Family',
-      message: 'To the most beautiful couple! May your journey together be as magical and joyous as the wedding celebrations. Love you both immensely! ✨🎉',
-      date: 'Blessings from Family',
-    },
-    {
-      name: 'Prakash & Jyoti Pehalajani',
-      relation: 'Family',
-      message: 'May God bless Pankaj & Bhagyashree with eternal happiness, prosperity, and peace. Looking forward to celebrating this royal union! 🪷',
-      date: 'Heartfelt Wishes',
-    },
-    {
-      name: 'Deepak & Late Vinita Hirani',
-      relation: 'Family',
-      message: 'Warmest congratulations and infinite blessings to the lovely couple Pankaj and Bhagyashree on this auspicious beginning! 💐✨',
-      date: 'Heartfelt Wishes',
-    },
+
   ];
 
   const [wishes, setWishes] = useState(() => {
