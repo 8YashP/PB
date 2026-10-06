@@ -28,7 +28,7 @@ class WeddingAudioManager {
   constructor() {
     this.audioElement = null;
     this.isPlaying = false;
-    this.currentTrackName = 'Jashn-E-Bahaaraa';
+    this.currentTrackName = 'Aaj Sajeya Ve (Instrumental)';
     this.listeners = new Set();
     this.hasCustomSong = true;
     this.defaultVolume = 0.5; // Strictly 50%
@@ -62,7 +62,7 @@ class WeddingAudioManager {
     this.audioElement = new Audio();
     this.audioElement.loop = true;
     this.audioElement.volume = this.defaultVolume; // 50% volume
-    this.audioElement.src = '/music/Jashn-E-Bahaaraa.mp3';
+    this.audioElement.src = '/music/aaj-sajeya-ve-instrumental.mp3';
 
     this.audioElement.addEventListener('play', () => {
       this.audioElement.volume = this.defaultVolume;
@@ -121,8 +121,9 @@ class WeddingAudioManager {
 
   async probePublicMusic() {
     const candidatePaths = [
+      { path: '/music/aaj-sajeya-ve-instrumental.mp3', name: 'Aaj Sajeya Ve (Instrumental)' },
+      { path: '/music/aaj-sajeya-ve.mp3', name: 'Aaj Sajeya Ve' },
       { path: '/music/Jashn-E-Bahaaraa.mp3', name: 'Jashn-E-Bahaaraa' },
-      { path: '/music/jashn-e-bahaaraa.mp3', name: 'Jashn-E-Bahaaraa' },
       { path: '/music/song.mp3', name: 'Wedding Song' },
       { path: '/music/wedding.mp3', name: 'Wedding Song' },
       { path: '/music/music.mp3', name: 'Wedding Song' },
@@ -171,8 +172,8 @@ class WeddingAudioManager {
 
   async play() {
     this.init();
-    if (!this.audioElement.src) {
-      this.audioElement.src = '/music/Jashn-E-Bahaaraa.mp3';
+    if (!this.audioElement.src || this.audioElement.src.includes('Jashn-E-Bahaaraa')) {
+      this.audioElement.src = '/music/aaj-sajeya-ve-instrumental.mp3';
     }
 
     if (this.audioElement) {
